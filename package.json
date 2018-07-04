@@ -5,14 +5,14 @@
   "description": "Test Application.",
  "main": "./out/extension",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-    "vscode:prepublish": "tsc -p ./",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "vscode:prepublish": "tsc -p ./"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "vss-web-extension-sdk": "^5.131.0"
+    "vss-web-extension-sdk": "^5.131.0",
     "vscode": "^1.1.17",
     "@types/node": "*"
   }
